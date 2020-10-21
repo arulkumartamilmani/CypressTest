@@ -2,12 +2,13 @@
 TEST FRAMEWORK
 ----------------
 
-# cypress-cucumber-pageObject-demo
+## Cypress-cucumber-pageObject-demo
 Demo using Cypress with Cucumber
 
 The cypress-cucumber-preprocessor adds support for using feature files when testing with Cypress.
-
-Built with the working example at https://github.com/TheBrainFamily/cypress-cucumber-example and https://github.com/TheBrainFamily/cypress-cucumber-preprocessor
+Built with the working example at 
+https://github.com/TheBrainFamily/cypress-cucumber-example  
+https://github.com/TheBrainFamily/cypress-cucumber-preprocessor
 
 The following are the directory levels & Files
 
@@ -23,14 +24,14 @@ CypressTest/integration/gigautomation/signIn.feature	-**Gherkin document**<br />
 CypressTest/package.json								              -**Browser can be selected by editing "scripts:test"
 
 ## Installation
-Install the plugin by running:
-C:\>git clone https://github.com/arulkumartamilmani/CypressTest
-C:\>cd CypressTest
-C:\>npm install --save-dev cypress-cucumber-preprocessor
+Install the plugin by running:<br />
+C:\>git clone https://github.com/arulkumartamilmani/CypressTest<br />
+C:\>cd CypressTest<br />
+C:\>npm install --save-dev cypress-cucumber-preprocessor<br />
 
 ## Run
-The tests can be executed as
+The tests can be executed as<br />
 
-C:/>cd CypressTest
-C:/CypressTest>npm install
-C:/CypressTest>npm test
+C:/>cd CypressTest<br />
+C:/CypressTest>npm install<br />
+C:/CypressTest>npm test<br />
