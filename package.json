@@ -1,0 +1,35 @@
+{
+  "name": "cypress-cucumber-demo",
+  "version": "1.0.0",
+  "description": "demo of cypress with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --browser chrome --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\""
+  },
+  
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing"
+  ],
+  "author": "Arul Kumar Tamil Mani",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^4.9.0",
+    "cypress-cucumber-preprocessor": "^2.5.0"
+  },
+  "cypress-cucumber-preprocessor": {
+      "nonGlobalStepDefinitions": false,
+      "stepDefinitions": "./cypress/integration/gigautomation/step_definitions",
+      "cucumberJson": {
+        "generate": true,
+        "outputFolder": "./cucumber-json",
+        "filePrefix": "",
+        "fileSuffix": ".cucumber"
+      }
+    },
+  "devDependencies": {
+    "cypress-xpath": "^1.6.0"
+  }
+}
