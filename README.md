@@ -28,10 +28,10 @@ Install the plugin by running:<br />
 C:\>git clone https://github.com/arulkumartamilmani/CypressTest<br />
 C:\>cd CypressTest<br />
 C:\>npm install --save-dev cypress-cucumber-preprocessor<br />
+C:\>npm install
 
 ## Run
 The tests can be executed as<br />
 
 C:/>cd CypressTest<br />
-C:/CypressTest>npm install<br />
 C:/CypressTest>npm test<br />
