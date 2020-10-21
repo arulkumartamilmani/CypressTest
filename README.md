@@ -21,7 +21,7 @@ CypressTest/cucumber-json/								            -**Output Json file created after 
 CypressTest/integration/gigautomation/pageObjects/		-**Page Objects which interacts with Application Under Test**<br />
 CypressTest/integration/gigautomation/step_defenition	-**JS based scripts for Automation**<br /> 
 CypressTest/integration/gigautomation/signIn.feature	-**Gherkin document**<br />
-CypressTest/package.json								              -**Browser can be selected by editing "scripts:test" uses Chrome as default
+CypressTest/package.json								              -**Browser can be selected by editing "scripts:test" uses Chrome as default**<br />
 
 ## Installation
 Install the plugin by running:<br />
