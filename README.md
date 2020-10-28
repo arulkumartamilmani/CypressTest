@@ -21,17 +21,18 @@ CypressTest/cucumber-json/								            -**Output Json file created after 
 CypressTest/integration/gigautomation/pageObjects/		-**Page Objects which interacts with Application Under Test**<br />
 CypressTest/integration/gigautomation/step_defenition	-**JS based scripts for Automation**<br /> 
 CypressTest/integration/gigautomation/signIn.feature	-**Gherkin document**<br />
-CypressTest/package.json								              -**Browser can be selected by editing "scripts:test"
+CypressTest/package.json								              -**Browser can be selected by editing "scripts:test" uses Chrome as default**<br />
 
 ## Installation
 Install the plugin by running:<br />
 C:\>git clone https://github.com/arulkumartamilmani/CypressTest<br />
 C:\>cd CypressTest<br />
 C:\>npm install --save-dev cypress-cucumber-preprocessor<br />
+C:\>npm install<br />
+C:\>npm cypress-xpath<br />
 
 ## Run
 The tests can be executed as<br />
 
 C:/>cd CypressTest<br />
-C:/CypressTest>npm install<br />
 C:/CypressTest>npm test<br />
