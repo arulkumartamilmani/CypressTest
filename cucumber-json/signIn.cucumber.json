@@ -1,0 +1,295 @@
+[
+  {
+    "description": "  User Logs In",
+    "keyword": "Feature",
+    "name": "Testing Sign in on Automation Practice website",
+    "line": 2,
+    "id": "testing-sign-in-on-automation-practice-website",
+    "tags": [
+      {
+        "name": "@feature-Signin",
+        "line": 1
+      }
+    ],
+    "uri": "signIn.feature",
+    "elements": [
+      {
+        "id": "testing-sign-in-on-automation-practice-website;login-with-correct-username-and-password",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Login with correct username and password",
+        "tags": [
+          {
+            "name": "@feature-Signin",
+            "line": 1
+          },
+          {
+            "name": "@Sunnyday",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user visits the Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 10694000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user click on Sign in",
+            "result": {
+              "status": "passed",
+              "duration": 3208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "user lands on Signin Page",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user enters \"valid\" username",
+            "result": {
+              "status": "passed",
+              "duration": 682000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user enters \"valid\" password",
+            "result": {
+              "status": "passed",
+              "duration": 501000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user clicks the SignIn button",
+            "result": {
+              "status": "passed",
+              "duration": 2325000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user lands on Account Page",
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "user clicks the Logout button",
+            "result": {
+              "status": "passed",
+              "duration": 2927000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-sign-in-on-automation-practice-website;login-with-correct-username-and-invalid-password",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Login with correct username and invalid password",
+        "tags": [
+          {
+            "name": "@feature-Signin",
+            "line": 1
+          },
+          {
+            "name": "@Rainyday",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "user visits the Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 2197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user click on Sign in",
+            "result": {
+              "status": "passed",
+              "duration": 2447000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user lands on Signin Page",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "user enters \"valid\" username",
+            "result": {
+              "status": "passed",
+              "duration": 558000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "user enters \"invalid\" password",
+            "result": {
+              "status": "passed",
+              "duration": 353000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "user clicks the SignIn button",
+            "result": {
+              "status": "passed",
+              "duration": 1484000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "user encounters Authentiation error",
+            "result": {
+              "status": "passed",
+              "duration": 83000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testing-sign-in-on-automation-practice-website;login-with-correct-invalid-username-and-invalid-password",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Login with correct invalid username and invalid password",
+        "tags": [
+          {
+            "name": "@feature-Signin",
+            "line": 1
+          },
+          {
+            "name": "@Stromyday",
+            "line": 26
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "user visits the Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 2239000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "user click on Sign in",
+            "result": {
+              "status": "passed",
+              "duration": 2815000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "user lands on Signin Page",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "user enters \"invalid\" username",
+            "result": {
+              "status": "passed",
+              "duration": 566000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "user enters \"invalid\" password",
+            "result": {
+              "status": "passed",
+              "duration": 364000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "user clicks the SignIn button",
+            "result": {
+              "status": "passed",
+              "duration": 1788000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "user encounters Authentiation error",
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

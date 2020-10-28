@@ -4,6 +4,9 @@ const environ = 'prodconfig'
 // Page Elements
 const txtTitle = 'My Store'
 const txtSignin = 'Sign in'
+const inputSearch = '#search_query_top'
+const searchButton = '.button-search'
+const searchBox ='#searchbox'
 
 
 export const homePage = {  
@@ -18,6 +21,25 @@ export const homePage = {
   clickSignIn() {
     cy.xpath("//*[contains(text(),'" + txtSignin + "')]")
         .first().click()
+  },
+  
+  enterSearchTerm(search) {
+    cy.get(inputSearch)
+      .clear()
+      .type(search)
+  },
+
+  clickSearch(){
+    cy.get(searchButton)
+        .first().click()
+    cy.get(searchBox).submit()
+  },
+  
+  searchProducts(){
+    cy.fixture('appdata').then((data)=>{
+        this.enterSearchTerm(data.searchTerm);});
+    this.clickSearch();
+    
   },
 
   // Assertions

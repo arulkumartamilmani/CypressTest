@@ -11,3 +11,8 @@ Given("user visits the Home Page", () => {
 When("user click on Sign in", () => {
     homePage.clickSignIn();
 })
+
+When("user searches for products",()=>{
+    homePage.searchProducts();
+})
+
