@@ -17,6 +17,7 @@ CypressTest/plugins/								    	            -**Plugin configuration**<br />
 CypressTest/support/				        			            -**Environment configuration**<br /> 
 CypressTest/screenshots/							  	            -**Screenshots of pages failed during execution**<br /> 						
 CypressTest/video/										                -**Video of Automated Test execution**<br /> 
+CypressTest/report/mochawesome-report/                -**Mochawsome html reports for the test**<br />
 CypressTest/cucumber-json/								            -**Output Json file created after test execution**<br /> 
 CypressTest/integration/gigautomation/pageObjects/		-**Page Objects which interacts with Application Under Test**<br />
 CypressTest/integration/gigautomation/step_defenition	-**JS based scripts for Automation**<br /> 
@@ -29,6 +30,7 @@ C:\>git clone https://github.com/arulkumartamilmani/CypressTest<br />
 C:\>cd CypressTest<br />
 C:\>npm install --save-dev cypress-cucumber-preprocessor<br />
 C:\>npm install<br />
+c:\>npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generator<br />
 C:\>npm cypress-xpath<br />
 
 ## Run
